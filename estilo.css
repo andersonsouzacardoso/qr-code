@@ -13,8 +13,8 @@ align-items: center;
 }
 
 .attribution {
-    width: 700px;
-    height: 800px;
+    width: 400px;
+    height: 600px;
     font-size: 11px; text-align: center;
     background-color: #ffff;
     border-radius: 20px;
@@ -23,9 +23,25 @@ align-items: center;
     
    
 .attribution a { 
-    margin-top: 10px;
-    color: hsl(228, 45%, 44%); }
+    margin-top: 20px;
+    color: hsl(228, 45%, 44%); 
+    font-size: 15px;
+}
+
 
     .attribution img{
-        padding: 45px;
+        width: 390px;
+        padding: 10px;
+        margin-top: 8px;
+        border-radius: 20px;
+    }
+
+    .attribution p{
+        margin: 10px 20px;
+        font-size: 15px;
+        
+    }
+
+    h1{
+        padding: 15px;
     }
