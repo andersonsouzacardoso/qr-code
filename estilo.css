@@ -39,9 +39,17 @@ align-items: center;
     .attribution p{
         margin: 10px 20px;
         font-size: 15px;
-        
+        color: rgb(163, 157, 157);
     }
 
     h1{
         padding: 15px;
+    }
+    @media(max-width: 375px){
+        .attribution{
+            width: 360px;
+        }
+        .attribution img{
+            width: 355px;
+        }
     }
